@@ -1,4 +1,4 @@
-package zeroBase;
+package zeroBase.Math_02;
 
 
 import java.util.ArrayList;
