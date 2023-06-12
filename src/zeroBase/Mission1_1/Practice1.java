@@ -40,17 +40,17 @@ public class Practice1 {
                 String value = System.getProperty(key);
                 sb.append(
                         "        <tr>\n" +
-                                "          <td>" + key + "</td>\n" +
-                                "          <td>" + value + "</td>\n" +
-                                "        </tr>\n"
+                        "          <td>" + key + "</td>\n" +
+                        "          <td>" + value + "</td>\n" +
+                        "        </tr>\n"
                 );
             }
             writer.write(sb.toString());
             writer.write(
                     "      </tbody>\n" +
-                            "    </table>\n" +
-                            "  </body>\n" +
-                            "</html>"
+                        "    </table>\n" +
+                        "  </body>\n" +
+                        "</html>"
             );
             writer.close();
         } catch (IOException e) {
